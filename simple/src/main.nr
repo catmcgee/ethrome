@@ -6,4 +6,3 @@ fn main(x: Field, y: pub Field) {
 fn test_main() {
     main(1, 2);
 }
-
