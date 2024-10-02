@@ -1,7 +1,6 @@
 use dep::std;
 
 fn main() {
-    // loop over a range
     for i in 0..5 {
         std::println(i);
     }
@@ -15,7 +14,6 @@ fn main() {
     for elem in foo {
         std::println(elem);
     }
-
     break_and_continue()
 }
 
