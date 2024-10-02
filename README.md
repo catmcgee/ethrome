@@ -1,11 +1,14 @@
-# Noir workshop for Verfiable Summit
+# ETHRome Workshop
 
+## ZK Intuitions: Writing your first circuits in Noir
 
-## ZK Intuitions: Thinking like a Circuit
+In this workshop, we will 
 
-In this workshop, we will go through some differences between regular functional programming with Rust and circuit programming with Noir. We will explore the Alibaba cave in more detail - for each intuition, we'll explore what it might look like in Rust and then fix it to work in Noir.
-
-You can find the workshop slides [here](https://docs.google.com/presentation/d/1IQeb5c4W7kCc0ep6W1Pw0vZuD2Sv62Wi9rSUr6lxtcM/edit?usp=sharing).
+- introduce the Alibaba cave to get an intuition for zero knowledge
+- start a new Noir program from scratch and write a circuit, generate a proof, and verify it
+- explore more advanced verions of the Alibaba cave to understand SNARKs and more up-to-date ZK cryptography
+- use these advanced versions to write circuits, understanding how Noir differs from functional programming in Rust
+- deploy a Solidity verifier so we can verify our circuits in EVM
 
 ## Circuits
 
